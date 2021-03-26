@@ -1,4 +1,4 @@
-#streamlit run Streamlittools.py running command
+#streamlit run Streamlittools.py (in terminal)
 import streamlit as st
 import pandas as pd
 import os
