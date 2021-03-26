@@ -6,7 +6,7 @@ import numpy as np
 text=open("barack.txt",mode='r',encoding='utf-8').read()
 stopwords = STOPWORDS #Pour filtrer les mots qu'on ne veut pas utiliser
 #construire le mask
-alice=np.array(Image.open(path.join("C:\\Users\\WIAM\\OneDrive\\Desktop\\useless fucking folder\\ppWhite.png")))
+alice=np.array(Image.open(path.join("ppWhite.png")))
 #Condtruire le wordcloud
 
 wc = WordCloud(
